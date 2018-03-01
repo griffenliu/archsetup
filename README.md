@@ -1,10 +1,16 @@
-### °²×°
-1. init.sh ÎÄ¼şĞèÒª¿ÉÒÔÍ¨¹ıhttp½øĞĞÏÂÔØ,ÏÂÔØºóÖ´ĞĞ³õÊ¼»¯°²×°
-2. ³õÊ¼»¯°²×°Íê³É²¢ÖØÆô
-3. Ê¹ÓÃ³õÊ¼ÓÃ»§ÃûºÍÃÜÂë½øÈëÏµÍ³
-4. sudo pacman -S git
-5. git clone http://139.224.237.171/SuperWalle/archsetup.git ~/.archsetup
-6. cd ~/.archsetup
-	* ´ıÍêÉÆ: Ôö¼ÓÄ¬ÈÏµÄi3ÅäÖÃ
-7. Ö´ĞĞdesktop.sh½Å±¾°²×°±Ø±¸ÏµÍ³Èí¼şÒÔ¼°×ÀÃæ»·¾³
+### å®‰è£…
+1. ä½¿ç”¨USBå¯åŠ¨å®‰è£…ç¯å¢ƒ
+2. wget https://raw.githubusercontent.com/griffenliu/archsetup/master/init.sh
+3. chmod 777 ~/init.sh
+4. ./init.sh
+5. åˆå§‹åŒ–å®‰è£…å®Œæˆå¹¶é‡å¯
+6. ä½¿ç”¨åˆå§‹ç”¨æˆ·åå’Œå¯†ç è¿›å…¥ç³»ç»Ÿ
+7. sudo pacman -S git
+8. git clone http://139.224.237.171/SuperWalle/archsetup.git ~/.archsetup
+9. cd ~/.archsetup
+7. chmod 777 desktop.sh; æ‰§è¡Œdesktop.shè„šæœ¬å®‰è£…å¿…å¤‡ç³»ç»Ÿè½¯ä»¶ä»¥åŠæ¡Œé¢ç¯å¢ƒ
 8. startx
+
+### TODO
+- å¢åŠ é»˜è®¤çš„i3é…ç½®
+- æš‚æ—¶æœªåšæ— çº¿ç½‘ç»œçš„æ”¯æŒ
