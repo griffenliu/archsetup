@@ -1,0 +1,32 @@
+!look and feel
+xterm.termName: xterm-256color
+!xterm.geometry: 80x36
+xterm*scrollBar: false
+xterm*rightScrollBar: true
+xterm*loginshell: true
+xterm*cursorBlink: true
+xterm*background: black
+xterm*foreground: gray
+xterm.borderLess: true
+xterm*colorUL: yellow
+xterm*colorBD: white
+!修正Alt不能正常使用的问题
+xterm*eightBitInput: false
+xterm*altSendsEscape: true
+!拷贝屏幕内容，包含所有颜色控制符
+!xterm*printAttributes: 2
+!xterm*printerCommand: cat > ~/xtermdump
+!快捷键定义：鼠标选择自动复制，ctrl-v粘贴，ctrl-p拷屏。鼠标中间是复制到xterm
+XTerm*VT100.Translations: #override \
+	<BtnUp>           : select-end(CLIPBOARD,PRIMARY,CUT_BUFFER0) \n\
+	Ctrl <KeyPress> V : insert-selection(CLIPBOARD,PRIMARY,CUT_BUFFER0) \n\
+	Ctrl <KeyPress> P : print() \n
+!font and locale
+xterm*locale: true
+xterm.utf8: true
+xterm*utf8Title: true
+xterm*fontMenu*fontdefault*Label: Default
+xterm*faceName: Misc Fixed:antialias=True:pixelsize=16
+xterm*faceNameDoublesize: Source Han Serif CN:pixelsize=14:antialias=True
+xterm*xftAntialias: true
+xterm*cjkWidth:false
