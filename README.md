@@ -6,7 +6,7 @@
 5. 初始化安装完成并重启
 6. 使用初始用户名和密码进入系统
 7. sudo pacman -S git
-8. git clone http://139.224.237.171/SuperWalle/archsetup.git ~/.archsetup
+8. git clone https://github.com/griffenliu/archsetup.git ~/.archsetup
 9. cd ~/.archsetup
 7. chmod 777 desktop.sh; 执行desktop.sh脚本安装必备系统软件以及桌面环境
 8. startx
